@@ -1,5 +1,4 @@
 .header__lang-link {
-    grid-column: 18px;
     width: 29px;
     height: 28px;
     font-weight: 400;
@@ -8,5 +7,5 @@
     text-align: right;
     text-decoration-line: underline;
     color: #FFFFFF;
-    padding-top: 46px;
+    padding-top: 46px; 
 }

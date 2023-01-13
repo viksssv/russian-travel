@@ -2,11 +2,11 @@
     width: 1184px;
     height: 52px;
     padding-top: 28px;
+    display: grid;
+    grid-template-columns: 176px 955px 48px;
+    justify-items: end;
     padding-left: 48px;
-    padding-right: 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 @media screen and (max-width: 1024px) {

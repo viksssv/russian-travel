@@ -4,4 +4,7 @@
     display: grid;
     justify-self: center;
     grid-template-columns: repeat(auto-fill, 284px);
+    padding-top: 92px;
+    padding-left: 48px;
+    grid-gap: 16px;
 }
