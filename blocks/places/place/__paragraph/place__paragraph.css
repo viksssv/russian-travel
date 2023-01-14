@@ -1,9 +1,10 @@
 .place__paragraph {
-    width: 484px;
+    margin: 0;
+    max-width: 484px;
     height: 145px;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-
+    grid-area: paragraph;
 }

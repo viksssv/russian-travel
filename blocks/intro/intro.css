@@ -1,6 +1,9 @@
 .intro {
-    width: 690px;
+    max-width: 690px;
     height: 429px;
-    padding-top: 92px;
-    padding-left: 148px;
-    }
+    padding: 114px 442px 0 148px;
+    display: grid;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
