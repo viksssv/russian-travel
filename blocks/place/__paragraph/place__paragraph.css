@@ -8,3 +8,7 @@
     color: #FFFFFF;
     grid-area: paragraph;
 }
+
+.place__paragraph:nth-child(2) {
+    border: 2px solid red;
+}
