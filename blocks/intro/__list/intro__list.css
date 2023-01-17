@@ -3,8 +3,6 @@
     padding: 0;
     max-width: 690px;
     height: 90px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
@@ -12,4 +10,5 @@
     list-style-type: none;
     font-family: 'Inter-Bold';
     font-style: normal;
+
 }

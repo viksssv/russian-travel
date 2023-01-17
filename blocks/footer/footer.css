@@ -1,4 +1,7 @@
 .footer {
     display: grid;
+    grid-template-columns: 68px 75px 112px 104px 639px 186px;
     max-width: 1184px;
+    height: 18px;
+    padding: 92px 48px 24px;
 }

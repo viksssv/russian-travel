@@ -1,9 +1,9 @@
 .intro {
     max-width: 690px;
     height: 429px;
-    padding: 114px 442px 0 148px;
+    padding: 92px 442px 0 148px;
     display: grid;
     font-family: 'Inter';
     font-style: normal;
-
+    grid-template-rows: 98px 241px 90px;
 }
