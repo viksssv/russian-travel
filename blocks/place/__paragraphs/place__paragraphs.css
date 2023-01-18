@@ -1,6 +1,6 @@
-.place__paragraph {
+.place__paragraphs {
     margin: 0;
-    max-width: 484px;
+    min-width: 484px;
     height: 145px;
     font-family: 'Inter-Regular';
     font-style: normal;
@@ -9,8 +9,10 @@
     line-height: 163%;
     color: #FFFFFF;
     grid-area: paragraph;
+    display: grid;
+    grid-gap: 26px;
 }
 
-.place__paragraph:nth-child(2) {
-    border: 2px solid red;
+.place__paragraph {
+    margin: 0;
 }
