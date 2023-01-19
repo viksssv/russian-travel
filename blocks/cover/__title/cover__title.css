@@ -3,17 +3,13 @@
     position: absolute;
     width: 560px;
     height: 152px;
-    font-family: 'Inter-Bold';
+    font-family: 'Inter-Black';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
     color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-self: center;
     padding-top: 245px;
     z-index: 1;
 }

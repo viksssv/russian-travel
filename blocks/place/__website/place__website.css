@@ -6,3 +6,8 @@
     display: grid;
     row-gap: 12px;
     align-self: end;
+}    
+
+.place__website:hover {
+    opacity: 0.8;   
+}

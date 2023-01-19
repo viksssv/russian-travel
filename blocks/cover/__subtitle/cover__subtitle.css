@@ -10,10 +10,6 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-self: center;
     padding-top: 429px;
     z-index: 1;
 }

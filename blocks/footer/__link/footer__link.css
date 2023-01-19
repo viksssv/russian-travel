@@ -9,3 +9,7 @@
     color: #FFFFFF;
     text-decoration-line: none;
 }
+
+.footer__link:hover {
+    opacity: 0.8;
+}
