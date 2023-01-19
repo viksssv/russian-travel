@@ -1,6 +1,7 @@
 .footer__copyright {
-    max-width: 186px;
-    height: 16px;
+    margin: 0;
+    min-width: 186px;
+    max-height: 16px;
     font-family: 'Inter-Regular';
     font-style: normal;
     font-weight: 400;
@@ -8,4 +9,5 @@
     line-height: 16px;
     text-align: right;
     color: #FFFFFF;
+    
 }
