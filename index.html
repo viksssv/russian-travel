@@ -5,14 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./pages/index.css" />
-        <title>Russian-project</title>
+        <title>Путешествия по России</title>
     </head>
     <body>
         <div class="page">
             <header class="header">
                 <img src="./sprint-3-images/header-logo.svg" alt="Россия" class="header__logo"/>
-                <a class="header__lang-link" href="#">Ru</a>
-                <a class="header__lang-link" href="#">En</a>
+                <div class="header__lang-links">
+                    <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
+                    <a class="header__lang-link" href="#">En</a>
+                </div>     
             </header>
             <main class="content">
                 <section class="lead">
@@ -37,13 +39,15 @@
                         усадила их в свою «Ладу» и проехала 20 тысяч километров
                         по родной стране. Мы выбрали и описали некоторые
                         интересные места, достойные вашего отпуска.</p>
-                    <ul class="intro__list">
-                        <li><span class="bold-text">Часовых поясов</span> 11</li>
-                        <li><span class="bold-text">Объектов природного наследия ЮНЕСКО</span> 12</li>
-                        <li><span class="bold-text">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-                        <li><span class="bold-text">Природных заповедников</span> 105</li>
-                        <li><span class="bold-text">Аэропортов</span> 241</li>
-                    </ul>
+                    <nav>
+                        <ul class="intro__list">
+                            <li><span class="bold-text">Часовых поясов</span> 11</li>
+                            <li><span class="bold-text">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                            <li><span class="bold-text">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                            <li><span class="bold-text">Природных заповедников</span> 105</li>
+                            <li><span class="bold-text">Аэропортов</span> 241</li>
+                        </ul>
+                    </nav>
                 </section>
                 <section class="photo-grid">
                     <img src="./sprint-3-images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item"/>
@@ -186,11 +190,13 @@
                 </section>
             </main>
             <footer class="footer">
-                <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+                <div class="footer__links">
+                    <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+                    <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+                    <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+                    <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+                    <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+                </div>
                 <p class="footer__copyright">@ 2023. Мансурова Виктория</p>
             </footer>
         </div>

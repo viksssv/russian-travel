@@ -1,0 +1,10 @@
+.footer__links {
+    max-width: 465px;
+    height: 18px;
+    display: flex;
+    column-gap: 18px;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}

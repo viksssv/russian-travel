@@ -1,6 +1,6 @@
 .footer {
-    display: grid;
-    grid-template-columns: 68px 75px 112px 104px 639px 186px;
+    display: flex;
+    justify-content: space-between;
     max-width: 1184px;
     max-height: 18px;
     padding: 92px 48px 24px;

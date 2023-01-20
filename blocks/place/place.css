@@ -8,8 +8,7 @@
         "title website"
         "image paragraph"
     ;
-    grid-gap: 40px 41px;
-    padding-left: 148px;    
+    grid-gap: 40px 41px; 
 }
 
 .place:nth-child(2) {

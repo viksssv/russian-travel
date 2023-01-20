@@ -1,6 +1,4 @@
 .footer__link {
-    max-width: 50px;
-    height: 18px;
     font-family: 'Inter-Regular';
     font-style: normal;
     font-weight: 400;
@@ -10,6 +8,3 @@
     text-decoration-line: none;
 }
 
-.footer__link:hover {
-    opacity: 0.8;
-}

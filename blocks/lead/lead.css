@@ -8,3 +8,11 @@
     font-family: 'Inter';
     font-style: normal;
 }
+
+/* @media screen and (max-width: 1024px) {
+    .lead {
+        width: 928px;
+        padding: 48px 48px 0;       
+    }
+} */
+
