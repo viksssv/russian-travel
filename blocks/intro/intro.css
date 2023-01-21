@@ -14,3 +14,22 @@
         padding: 92px 286px 92px 35px;
     }
 } 
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 720px;
+        padding: 88px 24px 88px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        margin: 0 auto;
+        width: 288px;
+        min-height: 754px;
+        padding: 0;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        grid-template-rows: 110px 554px 90px;
+    }
+}

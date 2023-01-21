@@ -11,3 +11,10 @@
 .place__website:hover {
     opacity: 0.8;   
 }
+
+@media screen and (max-width: 768px) {
+    .place__website { 
+        width: 352px;
+        height: 46px;
+    }
+}

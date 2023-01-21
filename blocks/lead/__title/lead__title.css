@@ -13,3 +13,19 @@
     font-family: 'Inter-Black';
     font-style: normal;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        padding: 0 24px 0 40px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288px;
+        height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+        padding: 0 16px 0 16px;
+    }
+}

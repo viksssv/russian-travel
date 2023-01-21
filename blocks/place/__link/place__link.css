@@ -11,3 +11,9 @@
     color: #FFFFFF;   
 }
 
+@media screen and (max-width: 768px) {
+    .place__link { 
+        width: 352px;
+    }
+}
+

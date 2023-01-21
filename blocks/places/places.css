@@ -12,3 +12,20 @@
         width: 928px;
     }
 } 
+
+@media screen and (max-width: 768px) {
+    .places { 
+        max-width: 720px;
+        min-height: 2808px;
+        row-gap: 73px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .places { 
+        width: 320px;
+        height: 5177px;
+        row-gap: 50px;
+        padding-top: 64px;
+    }
+} 
