@@ -26,3 +26,9 @@
 .place__title:nth-child(5) {
     height: 76px;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__title { 
+        width: 440px;
+    }
+}

@@ -1,18 +1,26 @@
 .place__paragraphs {
     margin: 0;
-    min-width: 484px;
-    height: 145px;
+    max-width: 484px;
+    height: 374px;
     font-family: 'Inter-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    grid-area: paragraph;
+    grid-area: paragraphs;
     display: grid;
     grid-gap: 26px;
 }
 
 .place__paragraph {
     margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraphs { 
+        width: 456px;
+        height: 433px;
+        grid-gap: 27px;
+    }
 }

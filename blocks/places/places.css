@@ -6,3 +6,9 @@
     row-gap: 80px;
     padding-top: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places { 
+        width: 928px;
+    }
+} 

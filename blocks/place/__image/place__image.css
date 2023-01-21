@@ -4,3 +4,10 @@
     max-height: 460px;
     grid-area: image;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__image { 
+        width: 440px;
+        height: 440px;
+    }
+}
