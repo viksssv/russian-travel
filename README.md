@@ -3,5 +3,5 @@
 <p>Создана файловая структура по БЭМ (Nested). Была применена Flexbox-верстка, Grid Layout.</p>
 <h2>Ссылка на GitHub Pages</h2>
 <ul>
-<li>Добавить  </li>
+<li>https://viksssv.github.io/russian-travel/</li>
 </ul>
