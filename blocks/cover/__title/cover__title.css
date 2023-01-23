@@ -2,8 +2,7 @@
     margin: 0;
     position: relative;
     width: 560px;
-    max-height: 152px;
-    font-family: 'Inter-Black';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -28,7 +27,6 @@
 @media screen and (max-width: 320px) {
     .cover__title { 
         width: 288px;
-        min-height: 70px;
         padding-top: 33px;
         font-size: 32px;
         line-height: 35px;

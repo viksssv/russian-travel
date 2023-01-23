@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    max-height: 18px;
     padding: 92px 48px 24px;
 }
 
@@ -25,7 +24,7 @@
         margin: 0;
         padding: 64px 118px 24px 16px;
         max-width: 186px;
-        min-height: 310px;
-        flex-direction: column;    
+        flex-direction: column;
+        height: 310px;
     }
 } 

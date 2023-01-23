@@ -1,13 +1,13 @@
 .header__lang-link_ru {
     max-width: 30px;
-    height: 28px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    font-family: 'Inter-Regular';
-    font-style: normal; 
+    font-family: 'Inter';
+    font-style: normal;
+    transition: opacity 0.2s ease;
 }
 
 .header__lang-link_ru:hover {
@@ -17,7 +17,6 @@
 @media screen and (max-width: 320px) {
     .header__lang-link_ru {
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

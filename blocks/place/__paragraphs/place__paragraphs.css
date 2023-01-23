@@ -1,43 +1,46 @@
 .place__paragraphs {
     margin: 0;
     max-width: 484px;
-    min-height: 374px;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
     grid-area: paragraphs;
-    display: grid;
-    grid-gap: 26px;
 }
 
 .place__paragraph {
     margin: 0;
+    padding-bottom: 26px;
 }
 
 @media screen and (max-width: 1024px) {
     .place__paragraphs { 
         width: 456px;
-        height: 433px;
-        grid-gap: 27px;
+    }
+    .place__paragraph {
+        padding-bottom: 27px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraphs { 
         max-width: 352px;
-        height: 441px;
-        grid-gap: 25px;
         font-size: 16px;
+    }
+    .place__paragraph {
+        padding-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraphs { 
         max-width: 288px;
-        gap: 25px;
         font-size: 16px;
     }
+    .place__paragraph {
+        padding-bottom: 25px;
+    }
+    
 }

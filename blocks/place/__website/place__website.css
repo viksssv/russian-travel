@@ -1,11 +1,11 @@
 .place__website {
     margin: 0;
     max-width: 456px;
-    min-height: 46px;
     grid-area: website;
     display: grid;
     row-gap: 12px;
     align-self: end;
+    transition: opacity 0.2s ease;
 }    
 
 .place__website:hover {

@@ -1,8 +1,8 @@
 .footer__links {
     max-width: 465px;
-    min-height: 18px;
     display: flex;
     column-gap: 18px;
+    transition: opacity 0.2s ease;
 }
 
 .footer__link:hover {

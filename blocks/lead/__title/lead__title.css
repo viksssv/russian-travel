@@ -4,13 +4,12 @@
     justify-content: center;
     align-items: center;
     max-width: 720px;
-    max-height: 200px;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
-    font-family: 'Inter-Black';
+    font-family: 'Inter';
     font-style: normal;
 }
 
@@ -23,7 +22,6 @@
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
-        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
         padding: 0 16px 0 16px;
