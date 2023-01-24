@@ -1,9 +1,21 @@
 .header__lang-links {
     margin: 0;
-    max-width: 78px;
-    height: 28px;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
     display: flex;
     column-gap: 18px;
     padding-top: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-links {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 

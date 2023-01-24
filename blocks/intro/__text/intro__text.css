@@ -7,10 +7,11 @@
     color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
+    padding: 40px 0 0 0;
 }
 
 @media screen and (max-width: 320px) {
     .intro__text {
-    width: 288px;
+    max-width: 100%;
     }
 }

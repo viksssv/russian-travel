@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid { 
-        width: 928px;
+        max-width: 928px;
         grid-template-columns: repeat(auto-fill, 300px);
         grid-gap: 14px; 
     }

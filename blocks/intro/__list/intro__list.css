@@ -9,14 +9,11 @@
     list-style-type: none;
     font-family: 'Inter';
     font-style: normal;
-}
-
-.bold-text {
-    font-weight: 700;
+    padding: 33px 0 0 0;
 }
 
 @media screen and (max-width: 320px) {
     .intro__list {
-        width: 288px;
+        max-width: 100%;
     }
 }

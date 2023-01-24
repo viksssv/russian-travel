@@ -12,10 +12,9 @@
 
 @media screen and (max-width: 1024px) {
     .place { 
-        width: 928px;
+        max-width: 928px;
         grid-template-columns: 440px 456px;
         gap: 32px;
-        box-sizing: border-box;
     }
 } 
 
@@ -38,7 +37,6 @@
         "paragraphs";
         row-gap: 32px;
         margin: 0 auto;
-        box-sizing: border-box;
         justify-items: center;
     }
 }

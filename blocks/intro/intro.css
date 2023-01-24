@@ -1,20 +1,18 @@
 .intro {
     max-width: 690px;
-    padding: 92px 442px 92px 148px;
+    padding: 92px 0 92px 148px;
     display: grid;
-    grid-template-rows: 98px 241px 90px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 0;
-        padding: 92px 286px 92px 35px;
+        padding: 92px 0 92px 35px;
     }
 } 
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: 720px;
+        max-width: 720px;
         padding: 88px 24px 88px 24px;
     }
 }
@@ -22,10 +20,7 @@
 @media screen and (max-width: 320px) {
     .intro {
         margin: 0 auto;
-        width: 288px;
-        padding: 0;
-        padding-top: 64px;
-        padding-bottom: 64px;
-        grid-template-rows: 110px 554px 90px;
+        max-width: 288px;
+        padding: 64px 0 64px 0;
     }
 }
