@@ -9,7 +9,7 @@
     list-style-type: none;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
-    padding: 33px 0 0 0;
+    padding-top: 33px;
 }
 
 @media screen and (max-width: 320px) {
