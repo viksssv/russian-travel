@@ -6,13 +6,13 @@
     line-height: 76px;
     color: #FFFFFF;
     grid-area: title;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
 }
 
 @media screen and (max-width: 1024px) {
     .place__title { 
-        width: 440px;
+        max-width: 100%;
     }
 }
 

@@ -2,7 +2,7 @@
     margin: 0;
     position: relative;
     max-width: 100%;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -14,8 +14,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover__subtitle { 
-        max-width: 100%;
+    .cover__subtitle {
         padding-top: 16px;
         font-size: 14px;
         line-height: 16px;

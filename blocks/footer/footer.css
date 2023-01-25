@@ -14,17 +14,15 @@
 @media screen and (max-width: 768px) {
     .footer {
         padding: 88px 0 24px 0;
-        width: 720px;
+        max-width: 720px;
         margin: 0 auto;
     }
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px) {
     .footer {
-        margin: 0;
-        padding: 64px 118px 24px 16px;
-        max-width: 186px;
+        padding: 64px 0 24px 16px;
         flex-direction: column;
-        height: 310px;
+        gap: 48px;
     }
-} 
+}
