@@ -5,11 +5,6 @@
     display: grid;
     row-gap: 12px;
     align-self: end;
-    transition: opacity 0.2s ease;
-}    
-
-.place__website:hover {
-    opacity: 0.8;   
 }
 
 @media screen and (max-width: 768px) {
@@ -21,5 +16,6 @@
 @media screen and (max-width: 320px) {
     .place__website { 
         max-width: 288px;
+        padding: 0 0 0 16px;
     }
 }

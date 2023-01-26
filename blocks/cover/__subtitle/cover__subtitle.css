@@ -1,7 +1,7 @@
 .cover__subtitle {
     margin: 0;
     position: relative;
-    max-width: 100%;
+    max-width: 360px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;

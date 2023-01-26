@@ -4,6 +4,7 @@
     display: grid;
     row-gap: 80px;
     padding-top: 92px;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
