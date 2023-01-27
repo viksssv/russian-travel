@@ -30,7 +30,7 @@
         max-width: 100%;
         grid-template-columns: 340px 352px;
     }
-} 
+}
 
 @media screen and (max-width: 747px) { 
     .place {  
@@ -41,10 +41,10 @@
         "image"
         "paragraphs";
         gap: 35px;
-    } 
-} 
+    }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 355px) {
     .place { 
         max-width: 320px;
         gap: 32px;
